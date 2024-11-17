@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Object Show - Osc-TV</title>
+    <link rel="stylesheet" href="sitereq/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Osc-TV</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="submit.html">Submit a Show</a> <!-- Active link for submission page -->
+        </nav>
+    </header>
+
+    <section class="submit-form">
+        <h1>Submit Your Object Show</h1>
+        <p>Submit your object show for a chance to be featured on Osc-TV!</p>
+
+        <!-- Submission Form -->
+        <form id="submitForm">
+            <label for="showName">Object Show Name:</label>
+            <input type="text" id="showName" name="showName" required>
+
+            <label for="showDescription">Show Description:</label>
+            <textarea id="showDescription" name="showDescription" rows="5" required></textarea>
+
+            <label for="showLink">Show Link (e.g., YouTube or Official Website):</label>
+            <input type="url" id="showLink" name="showLink" required>
+
+            <button type="submit">Submit Show</button>
+        </form>
+
+        <p>Join our community on Discord to meet other fans and discuss your show!</p>
+        <a href="https://discord.com/invite/example" target="_blank" class="discord-link">Join our Discord Server</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Osc-TV. All rights reserved.</p>
+    </footer>
+
+    <script src="js/submit.js"></script> <!-- Link to the JS for form handling -->
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osc-TV - Home</title>
+    <link rel="stylesheet" href="sitereq/style.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">Osc-TV</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="submit.html">Submit a Show</a>
+    </nav>
+</header>
+
+    <section class="hero">
+        <h1>Welcome to Osc-TV</h1>
+        <p>Your ultimate destination for curated object show content!</p>
+    </section>
+
+    <section class="video-list">
+        <h2>Featured Object Shows</h2>
+        <div id="videos" class="video-grid"></div>
+    </section>
+
+    <!-- Modal for YouTube Player -->
+    <div id="playerModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <iframe id="player" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Osc-TV. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+	<script src="js/auth.js"></script>
+</body>
+</html>
