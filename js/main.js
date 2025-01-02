@@ -6,9 +6,9 @@ const closeModalButton = document.getElementById('closeModal');
 
 // List of YouTube videos with IDs and titles
 const videos = [
-            { id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" },
-			{ id: "7maJ85lFWDwOBO2m", title: "BFDI:TPOT 15: Seasonal Shift" },
-	
+	    { id: "WGgLMJsimE8", title: "BFDIA 17: Start the Shift" },
+	    { id: "CHKP0oghspg", title: "BFDI:TPOT 15: Seasonal Shift" },
+	    { id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" }
 	]
 
 /**
