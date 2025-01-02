@@ -52,7 +52,8 @@ const objectShows = [
             { id: "T2NuWcd0t_U", title: "BFDIA 13: Well, Look Who It Is!" },
 			{ id: "RO3ujKZo96c", title: "BFDIA 14: PointyPointyPointy ♫" },
             { id: "kVCpKBP9hoo", title: "BFDIA 15: Spore Day" },
-			{ id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" }
+			{ id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" },
+	     { id: "WGgLMJsimE8", title: "BFDIA 17: Start the Shift" }
         ]
     },
 	{
@@ -71,7 +72,8 @@ const objectShows = [
 			{ id: "5UqZqXhaRQw", title: "BFDI:TPOT 11: Out Of The Blue" },
             { id: "1nxS-KYiDmk", title: "BFDI:TPOT 12: What’s Up Bell’s String?" },
 			{ id: "OEuYHlSMXMM", title: "BFDI:TPOT 13: Category One" },
-            { id: "bpsoMEaNoVE", title: "BFDI:TPOT 14: I SAID CAREFUL!!!" }
+            { id: "bpsoMEaNoVE", title: "BFDI:TPOT 14: I SAID CAREFUL!!!" },
+		{ id: "CHKP0oghspg", title: "BFDI:TPOT 15: Seasonal Shift" }
 		]
     },
 	{
