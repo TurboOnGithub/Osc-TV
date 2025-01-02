@@ -6,8 +6,9 @@ const closeModalButton = document.getElementById('closeModal');
 
 // List of YouTube videos with IDs and titles
 const videos = [
-            { id: "xSeVhTmLHHM", title: "“Objects in Mirror” | Inanimate Insanity S2E18" },
-			{ id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" }
+            { id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked" },
+			{ id: "7maJ85lFWDwOBO2m", title: "BFDI:TPOT 15: Seasonal Shift" },
+	
 	]
 
 /**
