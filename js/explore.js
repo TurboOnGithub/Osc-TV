@@ -104,6 +104,7 @@ const objectShows = [
     { id: "WKvS5_h3dQs", title: "“The Reality of the Situation” | Inanimate Insanity S2E16" },
     { id: "7etjFwAeKcA", title: "“Through No Choice of Your Own” | Inanimate Insanity S2E17" },
     { id: "xSeVhTmLHHM", title: "“Objects in Mirror” | Inanimate Insanity S2E18" }
+]
 },
 	{	
         "name": "Animatic Battle",
