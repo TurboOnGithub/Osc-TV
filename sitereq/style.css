@@ -328,3 +328,17 @@ footer a:hover {
         transform: scale(1.1);
     }
 }
+
+.new-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    text-align: center;
+}
+
