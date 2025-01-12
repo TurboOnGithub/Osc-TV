@@ -358,3 +358,5 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.key === 'Escape') closePlayer();
     });
 });
+
+// white padded room is funny
