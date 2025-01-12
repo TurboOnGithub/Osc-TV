@@ -285,6 +285,7 @@ const renderObjectShowSection = (objectShow) => {
             ${objectShow.episodes.map(episode => `
                 <div class="video-card">
                     <img src="${getThumbnailUrl(episode.id)}" alt="${episode.title} Thumbnail" loading="lazy">
+		    ${episode.og ? '<div class="og-badge">OG</div>' : ''}
                     <h3>${episode.title}</h3>
                     <button class="watch-button" data-id="${episode.id}">Watch On-site</button>
                     <a href="https://www.youtube.com/watch?v=${episode.id}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
