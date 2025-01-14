@@ -1,11 +1,12 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Updated to a Google Font */
     background-color: #121212; /* Dark background for dark mode */
     color: #e0e0e0; /* Light text for readability in dark mode */
     line-height: 1.6;
     scroll-behavior: smooth; /* Smooth scrolling */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Navbar */
@@ -14,9 +15,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background: #1f1f1f; /* Darker navbar */
+    background: linear-gradient(45deg, #1f1f1f, #333333); /* Gradient navbar */
     color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increased shadow depth */
     transition: background 0.3s ease;
 }
 
@@ -26,30 +27,36 @@ body {
     margin: 0 20px;
     font-weight: bold;
     font-size: 1.1rem;
-    transition: color 0.3s, transform 0.3s ease;
+    transition: color 0.3s, transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 .navbar a:hover {
     color: #ff6347; /* Highlight color */
     transform: scale(1.1); /* Subtle zoom effect */
+    text-shadow: 0 0 10px rgba(255, 99, 71, 0.8); /* Add text glow on hover */
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 80px 20px;
-    background: linear-gradient(to bottom, #333333, #444444); /* Dark gradient for hero section */
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #333333, #444444);
     color: white;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1s ease-out; /* Fade-in effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-out;
+    transition: transform 0.3s ease;
+}
+
+.hero:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    animation: slideInFromTop 1s ease-out; /* Slide-in animation */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* More intense shadow */
+    animation: slideInFromTop 1s ease-out;
 }
 
 .hero p {
@@ -57,7 +64,7 @@ body {
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.8;
-    animation: fadeIn 1.5s ease-out; /* Fade-in effect */
+    animation: fadeIn 1.5s ease-out;
 }
 
 /* Video Grid */
@@ -68,10 +75,10 @@ body {
 .video-list h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #ff6347; /* Accent color for headers */
+    color: #ff6347;
     font-size: 2rem;
     font-weight: 600;
-    animation: fadeIn 1.5s ease-out; /* Fade-in effect */
+    animation: fadeIn 1.5s ease-out;
 }
 
 .video-grid {
@@ -82,8 +89,8 @@ body {
 }
 
 .video-card {
-    background: #1e1e1e; /* Dark background for cards */
-    border-radius: 10px;
+    background: #1e1e1e;
+    border-radius: 15px; /* More rounded corners */
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -95,9 +102,9 @@ body {
 }
 
 .video-card:hover {
-    transform: translateY(-5px); /* Subtle hover lift */
+    transform: translateY(-10px); /* Bigger lift on hover */
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-    animation: scaleUp 0.3s ease-out; /* Hover animation */
+    animation: scaleUp 0.3s ease-out;
 }
 
 .video-card img {
@@ -107,17 +114,17 @@ body {
 }
 
 .video-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem; /* Slightly larger font */
     padding: 10px;
     color: #fff;
     font-weight: 600;
 }
 
 .video-card button {
-    background-color: #ff6347; /* Button accent color */
+    background-color: #ff6347;
     color: #fff;
     border: none;
-    padding: 12px 25px;
+    padding: 15px 30px;
     font-size: 1.1rem;
     border-radius: 50px;
     cursor: pointer;
@@ -125,8 +132,8 @@ body {
 }
 
 .video-card button:hover {
-    background-color: #ffd700; /* Hover effect */
-    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: #ffd700;
+    transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -167,7 +174,7 @@ footer a:hover {
 
 /* Modal Styles */
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -177,12 +184,13 @@ footer a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
+    transition: opacity 0.3s ease;
 }
 
 .modal-content {
     position: relative;
-    width: 90%; /* Increased width for bigger modal */
-    max-width: 1000px; /* Maximum width to control the size */
+    width: 90%;
+    max-width: 1000px;
     background: #121212;
     padding: 20px;
     border-radius: 15px;
@@ -190,16 +198,16 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeIn 0.5s ease-out;
 }
 
 .modal-content iframe {
     width: 100%;
-    height: 600px; /* Increased height to match the new modal size */
+    height: 600px;
     border-radius: 8px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Close button */
 .close-button {
     position: absolute;
     top: 15px;
@@ -236,13 +244,14 @@ footer a:hover {
     font-size: 1.1rem;
     color: #fff;
     background-color: #333;
-    transition: border 0.3s, background-color 0.3s;
+    transition: border 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
 
 .search-bar input:focus {
     border-color: #ff6347;
     outline: none;
     background-color: #444;
+    box-shadow: 0 0 8px rgba(255, 99, 71, 0.8); /* Focus glow */
 }
 
 /* Hover and focus effect on form elements */
@@ -254,7 +263,7 @@ footer a:hover {
 }
 
 .submit-form button {
-    background-color: #ff6347; /* Matches the button accent color */
+    background-color: #ff6347;
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -266,7 +275,7 @@ footer a:hover {
 }
 
 .submit-form button:hover {
-    background-color: #ffd700; /* Hover effect matches the theme */
+    background-color: #ffd700;
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
@@ -286,72 +295,3 @@ footer a:hover {
     color: #ffd700;
     text-shadow: 0 0 8px #ffd700;
 }
-
-/* Submission Styles */
-.submissions {
-    padding: 40px 20px;
-    background-color: #121212;
-    text-align: center;
-}
-
-.submissions h2 {
-    font-size: 2rem;
-    color: #ff6347;
-    margin-bottom: 30px;
-    font-weight: 600;
-}
-
-/* Animation Keyframes */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideInFromTop {
-    from {
-        transform: translateY(-30px);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
-@keyframes scaleUp {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-.new-badge {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background-color: red;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 4px 8px;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.og-badge {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background-color: orange;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 4px 8px;
-    border-radius: 50%;
-    text-align: center;
-}
-
