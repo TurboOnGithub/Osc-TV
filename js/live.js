@@ -12,7 +12,8 @@ const objectShows = [
         name: "ObjectCon 2024",
         episodes: [
             { id: "V3jEkZA1h6M", title: "ObjectCon 2024 | Day 1", new: false },
-            { id: "EqKkYkhWhSk", title: "ObjectCon 2024 | Day 2", new: true },
+            { id: "EqKkYkhWhSk", title: "ObjectCon 2024 | Day 2", new: false },
+            { id: "DQI43HwEIHk", title: "ObjectCon 2024 | Day 3", new: true },
         ]
     }
 ];
