@@ -297,7 +297,7 @@ const objectShows = [
 		{
         "name": "Battle for Pincode (BFP)",
         "episodes": [
-		{ id: "BFRxpJiWN", title: "BFP 1: Change Your Life NOW!!!!" },
+		{ id: "BFRxpJiWN-8", title: "BFP 1: Change Your Life NOW!!!!" },
 		{ id: "VVpz9tLqWlk", title: "BFP 2: YOU TOO WILL DISCOVER Delicious Object Cooking" },
 		{ id: "cngEZcM8GBw", title: "BFP 3: On THE Up, Up and Up!" },
 		{ id: "uIQRIi2dvgs", title: "BFP 4: The SECRET “PINCODE”" },
