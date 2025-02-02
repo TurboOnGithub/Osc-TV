@@ -285,13 +285,25 @@ const objectShows = [
             { id: "EPyg3Gc_P_w", title: "OTA 9: The great escape!!" },
 			{ id: "haLZP4UcZMs", title: "OTA 10: The Missing F̵̨͔̬̗̝̣̼͖͎͗̈́̒̆̆̿͊̿̈́̐̋͑̅̆͂ͅŗ̷̛͕̫͉̐̇̆̑̂͘͠ȉ̵̕e̶̛̘̿̔̂̾̇͗̀̈̋̈́̊́̅͝nd̷̛̜͉͈͈͐̋̄̍̑̔̅s." },
             { id: "NJrr_4ib6x0", title: "OTA 11: Feel the Steel" },
-			{ id: "wfZqzy16KlI", title: "OTA 12: bombs away!" },
-			{ id: "hgdX3tU9dzA", title: "OTA 13A: A Blast From The Past!!!" },
+	    { id: "wfZqzy16KlI", title: "OTA 12: bombs away!" },
+	    { id: "hgdX3tU9dzA", title: "OTA 13A: A Blast From The Past!!!" },
             { id: "KbeuD9kjQGc", title: "OTA 13B: infiltrating the fortress" },
             { id: "knQ1TeV_ztE", title: "OTA 14: The floor is a little too hot for my liking!" },
-			{ id: "GrmBD9bSL4M", title: "OTA 15: Honey, We Have Guests!" },
+	    { id: "GrmBD9bSL4M", title: "OTA 15: Honey, We Have Guests!" },
             { id: "MkxqoM_9t24", title: "OTA 16: The Finale?" },
-			{ id: "Y3-Ogmn3Ipk", title: "OTA 17: The true finale." }
+	    { id: "Y3-Ogmn3Ipk", title: "OTA 17: The true finale." }
+	]
+	},
+		{
+        "name": "Battle for Pincode (BFP)",
+        "episodes": [
+		{ id: "BFRxpJiWN", title: "BFP 1: Change Your Life NOW!!!!" },
+		{ id: "VVpz9tLqWlk", title: "BFP 2: YOU TOO WILL DISCOVER Delicious Object Cooking" },
+		{ id: "cngEZcM8GBw", title: "BFP 3: On THE Up, Up and Up!" },
+		{ id: "uIQRIi2dvgs", title: "BFP 4: The SECRET “PINCODE”" },
+		{ id: "ZqqEusco1iQ", title: "BFP 5: Laws And Lens SO Vendy" },
+		{ id: "_PCZN2IYFFU", title: "BFP 6: Right AS Rain" },
+		{ id: "o94W00Plk5k", title: "BFP 6.5: InTO The Distorniverse" },
 	]
 	}
 ];
