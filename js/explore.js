@@ -70,7 +70,7 @@ const objectShows = [
     { id: "qGqde_06qj8", title: "BFDIA 6: Well Rested", og: true},
     { id: "kTcfak9R-ok", title: "BFDIA 7: Intruder Alert", og: true},
     { id: "kuh1rlW4OyQ", title: "BFDIA 8: Meaty", og: true},
-    { id: "S2JV2nT_5FM", title: "BFDIA 9: Catch These Hands"},
+    { id: "S2JV2nT_5FM", title: "BFDIA 9: Catch These Hands", og: true},
     { id: "lcObRZOVdRM", title: "BFDIA 10: Taste the Sweetness"},
     { id: "qNKPTAEzXTw", title: "BFDIA 11: Lots of Mud"},
     { id: "S9NCSb6wAU8", title: "BFDIA 12: Insectophobe's Nightmare 4 (ft. Kevin MacLeod)"},
@@ -78,7 +78,9 @@ const objectShows = [
     { id: "RO3ujKZo96c", title: "BFDIA 14: PointyPointyPointy ♫"},
     { id: "kVCpKBP9hoo", title: "BFDIA 15: Spore Day"},
     { id: "8xdb6iS_uRY", title: "BFDIA 16: Respect to the Wicked"},
-    { id: "WGgLMJsimE8", title: "BFDIA 17: Start the Shift"}
+    { id: "WGgLMJsimE8", title: "BFDIA 17: Start the Shift"},
+    { id: "bkqv3uPIWOg", title: "BFDIA 18: Airplanes in the Night Sky"},
+    { id: "azNk6M0-mto", title: "BFDIA 19: 🥚"}
   ]
 },
 {
@@ -98,7 +100,9 @@ const objectShows = [
     { id: "1nxS-KYiDmk", title: "BFDI:TPOT 12: What’s Up Bell’s String?"},
     { id: "OEuYHlSMXMM", title: "BFDI:TPOT 13: Category One"},
     { id: "bpsoMEaNoVE", title: "BFDI:TPOT 14: I SAID CAREFUL!!!"},
-    { id: "CHKP0oghspg", title: "BFDI:TPOT 15: Seasonal Shift"}
+    { id: "CHKP0oghspg", title: "BFDI:TPOT 15: Seasonal Shift"},
+    { id: "JqmI70XeC04", title: "BFDI:TPOT 16: The Power of Four"},
+    { id: "gCQXXS8exng", title: "BFDI:TPOT 17: Bottle For Dream Island"}
   ]
 },
 {
@@ -216,7 +220,8 @@ const objectShows = [
             { id: "wAL4B7EGjX8", title: "IT’S TIME FOR THE [4:00] - Do NOT Use The Popcorn Button" },
             { id: "EtecN-s2qCg", title: "IT’S TIME FOR THE [5:00] - Fifty-Seven Tears Of The Star" },
 	    { id: "Vco-wRzDoH4", title: "IT’S TIME FOR THE [6:00] - Will You Ever Know?" },
-            { id: "qw0Rt9R_4ak", title: "IT’S TIME FOR THE [7:00] - Stop and Look. Realize." }
+            { id: "qw0Rt9R_4ak", title: "IT’S TIME FOR THE [7:00] - Stop and Look. Realize." },
+		{ id: "eFEyscrf_TY", title: "IT’S TIME FOR THE [8:00] - It Always Flies" },
         ]
     },
 	{
