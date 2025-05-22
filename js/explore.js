@@ -146,6 +146,16 @@ const objectShows = [
     { id: "xSeVhTmLHHM", title: "“Objects in Mirror” | Inanimate Insanity S2E18" }
 ]
 },
+{
+  "name": "Inanimate Insanity Remastered",
+  "episodes": [
+    { id: "bI-u22A_RBk", title: "“The Crappy Cliff” | Inanimate Insanity S1E1 (Remastered)"},
+    { id: "6T6RGGGXh30", title: "“A Lemony Lesson” | Inanimate Insanity S1E2 (Remastered)"},
+    { id: "rdR-1hF7neQ", title: "“The Arena of Death” | Inanimate Insanity S1E3 (Remastered)"},
+    { id: "tW8bgwN8vtQ", title: "“One-Shot Wonder” | Inanimate Insanity S1E4 (Remastered)"},
+    { id: "h9ynu1uE6HM", title: "“The Stacker” | Inanimate Insanity S1E5 (Remastered)"},
+]
+},
 	{	
         "name": "Animatic Battle",
         "episodes": [
@@ -204,11 +214,12 @@ const objectShows = [
     {
         "name": "The Nightly Manor",
         "episodes": [
-            { id: "T1w9gjxShbo", title: "Nightly Manor 1: The Manor's Return" },
-            { id: "N8njUkit0eE", title: "Nightly Manor 2: Through The Walls" },
-            { id: "jblwlgIcQes", title: "Nightly Manor 3: Mysterious Guests" },
-            { id: "fTar7dVLofw", title: "Nightly Manor 4: Beneath The Surface" },
-            { id: "03dIz0y1DAc", title: "Nightly Manor 5: The Secrets Within" }
+            { id: "T1w9gjxShbo", title: "The Nightly Manor: Part 1 - 'Visitors, Invited!'" },
+            { id: "N8njUkit0eE", title: "The Nightly Manor: Part 2 - 'Rescue, Underway!'" },
+            { id: "jblwlgIcQes", title: "The Nightly Manor: Part 3 - 'Survive!'" },
+            { id: "fTar7dVLofw", title: "The Nightly Manor: Part 4 - 'Any Day Now'" },
+            { id: "03dIz0y1DAc", title: "The Nightly Manor: Part 5 - 'All The World & You & Me'" },
+	    { id: "A43PUiqnyEY", title: "The Nightly Manor: Part 6 - 'Some Things Just Stick In Your Mind'" }
         ]
     },
 	{
@@ -221,7 +232,7 @@ const objectShows = [
             { id: "EtecN-s2qCg", title: "IT’S TIME FOR THE [5:00] - Fifty-Seven Tears Of The Star" },
 	    { id: "Vco-wRzDoH4", title: "IT’S TIME FOR THE [6:00] - Will You Ever Know?" },
             { id: "qw0Rt9R_4ak", title: "IT’S TIME FOR THE [7:00] - Stop and Look. Realize." },
-		{ id: "eFEyscrf_TY", title: "IT’S TIME FOR THE [8:00] - It Always Flies" },
+	    { id: "eFEyscrf_TY", title: "IT’S TIME FOR THE [8:00] - It Always Flies" },
         ]
     },
 	{
@@ -247,7 +258,13 @@ const objectShows = [
             { id: "whQPEExAbbo", title: "CONCEPT - Episode 4 - Caramelaphobe’s Nightmare" },
             { id: "Qtn9n_cz66s", title: "CONCEPT - Episode 5 - Banana's Requiem" },
 	    { id: "eP-4g8V_d0I", title: "CONCEPT - Episode 6 - One Must Imagine Candy Cane Happy." },
-            { id: "61udnqMofc4", title: "CONCEPT - Episode 7 - Bed's Way" }
+            { id: "61udnqMofc4", title: "CONCEPT - Episode 7 - Bed's Way" },
+	    { id: "U8X37O7T3mw", title: "CONCEPT - Episode 8 - Cats and Dogs" },	
+            { id: "raio6AoTIPs", title: "CONCEPT - Episode 9 - Hey is for Horses" },
+            { id: "pgJ1DjfyRng", title: "CONCEPT - Episode 10 - Two Bowls of Chili" },
+            { id: "wgFqgGMvd2c", title: "CONCEPT - Episode 11 - Crowbar Is In This Episode Too" },
+            { id: "pTez8v2J4Hs", title: "CONCEPT - Episode 12 - Fingertips" },
+	    { id: "L7U6o5pcpcg", title: "CONCEPT - Episode 13a - Start The Drift" }
         ]
     },
 	{
